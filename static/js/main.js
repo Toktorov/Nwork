@@ -8,17 +8,13 @@ if (mediaQuery2.matches) {
          element2.style.width = "150px";
          element2.style.height = "300px";
          element2.style.objectFit = "cover";
-         for(let i = 0; i<=3;i++){
-             element2.src = "images/item"+i+"_mini.png"
-         }
+         
      });
     cards2.forEach((element2) => {
         element2.style.width = "190px";
         element2.style.height = "320px";
         element2.style.objectFit = "cover";
-        for (let i = 4; i <= 7; i++) {
-            element2.src = "images/item" + i + "_mini.png"
-        }
+        
     });
     cards3.forEach((element2) => {
         element2.style.width = "300px";

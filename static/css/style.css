@@ -130,6 +130,7 @@ body{
     padding: 4px 15px;
     border-radius: 5px;
 }
+
 .phone__number{
     font-family: 'Ubuntu', sans-serif;   
     font-weight: 700;
@@ -521,10 +522,18 @@ body{
     .phone__number{
         display: none;
     }
+    .phone{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
 }
 @media (max-width:900px ){
+    
     .img_block{
-        margin-left: 50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: flex-end;
     }
     .text-item{
         font-size: 22px;
@@ -543,6 +552,7 @@ body{
     }
 }
 @media (max-width:500px ){
+    
     .r123r{
         padding-right: 10px ;
     }
@@ -563,7 +573,7 @@ body{
 
 @media (max-width:540px ){
     .top__title{
-        font-size: 80px;
+        font-size: 70px;
     }  
 
     .top__test{
@@ -577,7 +587,13 @@ body{
         margin-bottom: 15px;
     }
 }
+@media (max-width:420px ){
+.l123l{
+        padding: 0 2px;
+    }
+}
 @media (max-width:380px ){
+    
     .top__title{
         font-size: 61px;
     }  
